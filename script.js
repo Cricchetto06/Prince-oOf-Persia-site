@@ -76,9 +76,10 @@ const relatedImages = {
     'https://media.pocketgamer.com/artwork/na-hlztb/prince-of-persia-classic-ios-1.jpg'
   ],
   related9: [
-    'related3-1.jpg',
-    'related3-2.jpg',
-    'related3-3.jpg'
+    //Prince of Persia 2008
+    'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/2YH0i5RZDiiVjDYjPKOFGU/6a5f41bf4eea6761e9af3ab007142efc/overview1.jpg',
+    'related3-2.jpghttps://cdn2.unrealengine.com/0000005464-1280x720-dfd781dae137.jpg?resize=1&w=480&h=270&quality=medium',
+    'related3-3.jpghttps://www.gamerclick.it/immagini/videogame/Prince_of_Persia_2008/gallery_original/Prince_of_Persia_2008-57e7fb4d16cf8.jpg'
   ],
   related10: [
     'related3-1.jpg',
@@ -243,6 +244,21 @@ function imgPrincipale(id){
 
 
     return 'https://m.media-amazon.com/images/M/MV5BYTIyZjVkZmUtYTY4My00OGRkLWFhNDItNzU5Mjk4NjhiMzVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg';
+  }
+
+  else if(id == '9'){
+    largeImage.style.width = '40%';
+    description.textContent = `Prince of Persia, rilasciato nel 2008 da Ubisoft, è un reboot della serie che introduce un nuovo protagonista e un'ambientazione completamente diversa dai 
+    titoli precedenti. Ambientato in un regno fantastico devastato da un antico male, il gioco segue le avventure di un Principe senza nome e della principessa Elika, un personaggio che lo 
+    accompagna per tutto il viaggio. Insieme, i due devono combattere contro le forze oscure del dio corrotto Ahriman per riportare la luce nel mondo. Il gioco presenta uno stile grafico 
+    distintivo ispirato al cel-shading, che dona all’ambientazione e ai personaggi un aspetto simile a quello di un fumetto animato. Il gameplay si concentra su acrobazie spettacolari e su 
+    combattimenti uno contro uno, con un’enfasi particolare sulla collaborazione tra il Principe ed Elika. La principessa non è solo un personaggio di supporto, ma gioca un ruolo cruciale 
+    nelle battaglie e nelle sequenze platform, aiutando il protagonista a superare ostacoli e risolvere enigmi. Prince of Persia del 2008 è stato accolto positivamente per la sua estetica unica,
+    il gameplay fluido e l’interazione tra i due personaggi principali. Tuttavia, ha anche suscitato pareri contrastanti per la struttura aperta e l’assenza di una vera e propria meccanica 
+    di “game over”, che permette al giocatore di riprendere immediatamente ogni volta che fallisce. Nel complesso, il gioco è apprezzato per aver introdotto una nuova visione della saga, 
+    offrendo una storia avvincente e un’esperienza di gioco originale che si distingue dai capitoli precedenti.`;
+
+    return 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJaYuxxoxZ4jIqMAURICz3aFmiqbP4Wb0oDw&s';
   }
   else{
       description.textContent = `Descrizione N`;
