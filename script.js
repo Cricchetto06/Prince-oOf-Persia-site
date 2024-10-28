@@ -53,9 +53,9 @@ const relatedImages = {
       'https://www.speedrun.com/static/theme/mwzg4n8y/background.jpg?v=8b39afc'
   ],
   related5: [
-    'related3-1.jpg',
-    'related3-2.jpg',
-    'related3-3.jpg'
+    'https://images.kinguin.net/g/carousel-main-mobile/media/category/0/0/0000003944.600x338.jpg',
+    'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/0000003949.1920x1080.jpg?t=1720535324',
+    'https://i.redd.it/pxt5qx8a9ey51.jpg'
   ],
   related6: [
     'related3-1.jpg',
@@ -183,7 +183,18 @@ function imgPrincipale(id){
 
   else if(id == '5'){
     largeImage.style.width = '50%';
-    description.textContent = ``;
+    description.textContent = `Prince of Persia: Warrior Within è un videogioco d'azione e avventura sviluppato da Ubisoft e pubblicato nel 2004 come seguito diretto di The Sands of Time. 
+    Il gioco presenta una svolta più oscura e matura rispetto al titolo precedente, sia nel tono narrativo che nelle ambientazioni. Nei panni del Principe, i giocatori intraprendono un viaggio 
+    in una terra minacciosa e sconosciuta per cercare di sfuggire al Dahaka, un'entità spietata che lo perseguita come conseguenza dell'uso della Sabbia del Tempo. Warrior Within introduce 
+    un sistema di combattimento più complesso, con nuove mosse, abilità e una varietà di armi a disposizione del Principe. I giocatori possono utilizzare attacchi combinati e interagire con 
+    l’ambiente per sconfiggere i nemici, sfruttando anche il controllo del tempo per avere un vantaggio nelle battaglie. Le ambientazioni sono intricate e oscure, con una forte enfasi su 
+    atmosfere gotiche e una colonna sonora metal che accompagna l'azione intensa del gioco. La trama esplora temi di destino e redenzione, mentre il Principe cerca di cambiare il proprio futuro 
+    ed evitare la morte. L’ambientazione cupa e il tono maturo rappresentano un cambiamento significativo rispetto al capitolo precedente, offrendo un'esperienza più complessa e drammatica.
+    Warrior Within ha ricevuto recensioni positive per il sistema di combattimento avanzato, la profondità della trama e il design dell’ambientazione, sebbene il cambiamento di tono rispetto a 
+    The Sands of Time abbia diviso parte del pubblico. Nel complesso, *Prince of Persia: Warrior Within* rappresenta un’evoluzione più oscura e profonda della serie, portando i giocatori in 
+    un’avventura intensa e ricca di sfide.`;
+
+    return 'https://store.ubisoft.com/on/demandware.static/-/Sites-masterCatalog/default/dw59f81f00/images/large/575ffda7a3be1633568b4e08.jpg';
   }
   else{
       description.textContent = `Descrizione N`;
