@@ -65,9 +65,10 @@ const relatedImages = {
     'https://i0.wp.com/thegamerhq.com/wp-content/uploads/2021/03/maxresdefault-35.jpg?resize=1000%2C600&ssl=1'
   ],
   related7: [
-    'related3-1.jpg',
-    'related3-2.jpg',
-    'related3-3.jpg'
+    //battle of Prince of persia
+    'https://www.techspot.com/articles-info/2788/images/2024-01-11-image-2.jpg',
+    'https://storage.cq.ru/games/0f861eeab0ea938cef2a4d178ad82d82.jpg',
+    'https://cdn.gamekult.com/images/photos/00/00/62/41/ME0000624195_2.jpg'
   ],
   related8: [
     'related3-1.jpg',
@@ -212,6 +213,21 @@ function imgPrincipale(id){
    offrendo un’esperienza emozionante e completa per i fan della serie Prince of Persia.`;
     
     return 'https://cdn1.epicgames.com/offer/93e1f80f18614d6a9a36fa32513bd9a8/POP3_Store_Portrait_1200x1600_1200x1600-38d16d166a10c1638dd91d8b6e2858fe';
+  }
+
+  else if(id == '7'){
+    largeImage.style.width = '40%';
+    description.textContent = `Battles of Prince of Persia è un videogioco di strategia a turni sviluppato da Ubisoft e pubblicato nel 2005 per Nintendo DS. 
+    Diverso dagli altri titoli della serie, conosciuti per l’azione e il platforming, questo gioco introduce un nuovo approccio strategico e tattico, ambientando la storia tra gli eventi di 
+    The Sands of Time e Warrior Within. Il gioco è caratterizzato da meccaniche di combattimento a turni e utilizza un sistema di carte che consente ai giocatori di pianificare le mosse delle 
+    proprie unità sul campo di battaglia. In Battles of Prince of Persia, i giocatori prendono il controllo del Principe e di altri personaggi, guidando eserciti e affrontando battaglie che 
+    richiedono abilità di pianificazione strategica. Ogni carta rappresenta una mossa o un’azione speciale, come attacchi, difese o movimenti tattici, che devono essere usati in modo oculato 
+    per prevalere sul nemico. L’ambientazione e la storia seguono lo stile della saga, esplorando temi di guerra e conflitto mentre il Principe cerca di riportare la pace nel suo regno e 
+    proteggere la sua gente. Nonostante l’allontanamento dal gameplay tipico della serie, *Battles of Prince of Persia* è stato apprezzato per l'innovativo sistema di carte e la profondità 
+    strategica, anche se la ricezione è stata mista per via del gameplay meno dinamico e della grafica limitata rispetto agli altri titoli. In sintesi, 
+    Battles of Prince of Persia offre una variazione tattica per i fan della serie, introducendo un’esperienza strategica che arricchisce la lore del mondo di Prince of Persia.`;
+
+    return 'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1nP3HMmLfBYzZ1ulrRrDrF/cf47b5ed82cfe3983eb3ed325dd7ef44/POP_2005_Battles-of-Prince-of-Persia_Packshot.jpg';
   }
   else{
       description.textContent = `Descrizione N`;
