@@ -71,9 +71,9 @@ const relatedImages = {
     'https://cdn.gamekult.com/images/photos/00/00/62/41/ME0000624195_2.jpg'
   ],
   related8: [
-    'related3-1.jpg',
-    'related3-2.jpg',
-    'related3-3.jpg'
+    'https://imag.malavida.com/mvimgbig/download-fs/prince-of-persia-classic-16292-4.jpg',
+    'https://www.gamereactor.it/media/11/princepersiaclassic_161149.jpg',
+    'https://media.pocketgamer.com/artwork/na-hlztb/prince-of-persia-classic-ios-1.jpg'
   ],
   related9: [
     'related3-1.jpg',
@@ -228,6 +228,21 @@ function imgPrincipale(id){
     Battles of Prince of Persia offre una variazione tattica per i fan della serie, introducendo un’esperienza strategica che arricchisce la lore del mondo di Prince of Persia.`;
 
     return 'https://staticctf.ubisoft.com/J3yJr34U2pZ2Ieem48Dwy9uqj5PNUQTn/1nP3HMmLfBYzZ1ulrRrDrF/cf47b5ed82cfe3983eb3ed325dd7ef44/POP_2005_Battles-of-Prince-of-Persia_Packshot.jpg';
+  }
+
+  else if(id == '8'){
+    largeImage.style.width = '30%';
+    description.textContent = `Prince of Persia Classic è una versione rivisitata del classico Prince of Persia, sviluppata da Ubisoft e rilasciata nel 2007 per Xbox Live Arcade e 
+    successivamente per PlayStation Network e dispositivi mobili. Questo remake riporta in vita il celebre gioco del 1989, aggiornandone la grafica e le animazioni per sfruttare la potenza delle
+    piattaforme moderne, pur mantenendo il gameplay e il design dei livelli originali. Nel gioco, i giocatori vestono i panni del Principe, che deve superare una serie di stanze piene di 
+    trappole, nemici e ostacoli per salvare la principessa e sconfiggere il malvagio visir Jaffar. Il gameplay si concentra sul platforming e richiede precisione nei salti, nei movimenti 
+    e nei combattimenti. Le nuove animazioni, ispirate alla serie The Sands of Time, offrono movimenti fluidi e acrobazie spettacolari, rendendo l'esperienza più dinamica e visivamente 
+    accattivante. Prince of Persia Classic ha ricevuto recensioni positive per il rispetto dell’essenza del gioco originale, con aggiunte grafiche e meccaniche che lo rendono accessibile 
+    a una nuova generazione di giocatori. Considerato un omaggio moderno al titolo che ha dato inizio alla saga, il gioco rappresenta un classico rinnovato che celebra l'eredità di 
+    Prince of Persia, combinando nostalgia e innovazione in un'unica esperienza.`;
+
+
+    return 'https://m.media-amazon.com/images/M/MV5BYTIyZjVkZmUtYTY4My00OGRkLWFhNDItNzU5Mjk4NjhiMzVhXkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg';
   }
   else{
       description.textContent = `Descrizione N`;
