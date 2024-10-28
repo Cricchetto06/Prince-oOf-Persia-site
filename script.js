@@ -53,14 +53,16 @@ const relatedImages = {
       'https://www.speedrun.com/static/theme/mwzg4n8y/background.jpg?v=8b39afc'
   ],
   related5: [
+    //prince of persia warrior within
     'https://images.kinguin.net/g/carousel-main-mobile/media/category/0/0/0000003944.600x338.jpg',
     'https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/13500/0000003949.1920x1080.jpg?t=1720535324',
     'https://i.redd.it/pxt5qx8a9ey51.jpg'
   ],
   related6: [
-    'related3-1.jpg',
-    'related3-2.jpg',
-    'related3-3.jpg'
+    //prince of persia the two thrones
+    'https://www.gamers-shop.dk/images/game_img/screenshots/princetwo/926984_20051011_screen012.jpg',
+    'https://d31-a.sdn.cz/d_31/d_15110258/img/78/1400x1050_GHJINN.jpg',
+    'https://i0.wp.com/thegamerhq.com/wp-content/uploads/2021/03/maxresdefault-35.jpg?resize=1000%2C600&ssl=1'
   ],
   related7: [
     'related3-1.jpg',
@@ -182,7 +184,7 @@ function imgPrincipale(id){
   }
 
   else if(id == '5'){
-    largeImage.style.width = '50%';
+    largeImage.style.width = '40%';
     description.textContent = `Prince of Persia: Warrior Within è un videogioco d'azione e avventura sviluppato da Ubisoft e pubblicato nel 2004 come seguito diretto di The Sands of Time. 
     Il gioco presenta una svolta più oscura e matura rispetto al titolo precedente, sia nel tono narrativo che nelle ambientazioni. Nei panni del Principe, i giocatori intraprendono un viaggio 
     in una terra minacciosa e sconosciuta per cercare di sfuggire al Dahaka, un'entità spietata che lo perseguita come conseguenza dell'uso della Sabbia del Tempo. Warrior Within introduce 
@@ -195,6 +197,21 @@ function imgPrincipale(id){
     un’avventura intensa e ricca di sfide.`;
 
     return 'https://store.ubisoft.com/on/demandware.static/-/Sites-masterCatalog/default/dw59f81f00/images/large/575ffda7a3be1633568b4e08.jpg';
+  }
+  else if(id == '6'){
+    largeImage.style.width = '40%';
+    description.textContent = `Prince of Persia: The Two Thrones è un videogioco d'azione e avventura pubblicato da Ubisoft nel 2005, che conclude la trilogia iniziata con The Sands of Time 
+    e proseguita con *Warrior Within*. In questo capitolo, il Principe torna a Babilonia con la speranza di trovare pace, solo per scoprire che il suo regno è stato invaso e ridotto in rovina. 
+    Inoltre, a causa delle vicende precedenti, il Principe si trova a dover affrontare il suo "lato oscuro", una versione malvagia di sé stesso, il Dark Prince, creato dalle influenze della 
+    Sabbia del Tempo. The Two Thrones combina il platforming e l’esplorazione caratteristici della serie con un sistema di combattimento arricchito da una nuova meccanica stealth, il cosiddetto 
+    “Speed Kill”, che permette al Principe di eliminare i nemici in modo rapido e silenzioso. I giocatori possono anche alternarsi tra il Principe e il Dark Prince, che ha abilità uniche e un 
+    gameplay differente, permettendo una varietà di stili di gioco. La possibilità di trasformarsi offre nuovi modi di esplorare le ambientazioni e di superare gli ostacoli. La storia esplora 
+    il conflitto interiore del Principe e il suo desiderio di redenzione, confrontandosi con le conseguenze delle sue azioni passate. Le ambientazioni sono un mix di luce e oscurità, riflettendo
+   il contrasto tra il Principe e il suo lato oscuro, mentre il ritorno a Babilonia crea un’atmosfera nostalgica e drammatica. The Two Thrones è stato accolto positivamente per il suo gameplay 
+   ben bilanciato, la narrativa profonda e il ritorno alle atmosfere de *The Sands of Time*. Considerato un degno finale per la trilogia, il gioco combina azione, avventura e introspezione, 
+   offrendo un’esperienza emozionante e completa per i fan della serie Prince of Persia.`;
+    
+    return 'https://cdn1.epicgames.com/offer/93e1f80f18614d6a9a36fa32513bd9a8/POP3_Store_Portrait_1200x1600_1200x1600-38d16d166a10c1638dd91d8b6e2858fe';
   }
   else{
       description.textContent = `Descrizione N`;
